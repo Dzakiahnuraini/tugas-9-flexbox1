@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    background-color: rgb(226, 188, 243);
+    min-height: 95vh;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 55px;
+  } 
+  header {
+    background-color: rgb(238, 130, 188);
+    color: black;
+    text-align: center;
+    height: 65px;
+  }  
+  .content {
+    display: flex;
+    flex: 5;
+    padding: 25px;
+    justify-content: space-between;
+  }
+  .container2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  height:150px;
+ }
+article {
+    background-color: rgb(220, 187, 135);
+    width: 800px;
+    text-align: center;
+ }
+  article > p {
+    height: 140px;
+ }
+  aside {
+    background-color: rgb(127, 232, 255);
+    width: 800px;
+    height: 387px;
+    text-align: center;
+ }
+  footer {
+    background-color: rgb(255, 221, 196);
+    height: 55px;
+    text-align: center;
+ }
+ 
+ 
